@@ -1,7 +1,7 @@
 /* general */
 
 #top {
-  background: url(/assets/images/student_image_white.jpg); 
+  background: url(../images/student_image_white.jpg); 
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
