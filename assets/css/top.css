@@ -1,0 +1,126 @@
+#top-copy {
+  margin-top: 200px;
+  color: white;
+  text-shadow: 2px 2px 15px #555555;
+}
+
+#top-copy h1 {
+  font-weight: 600;
+}
+
+#top-copy p {
+  font-weight: 600;
+  color: #fff;
+}
+
+#top-main {
+  margin-top: 100px;
+}
+
+.information {
+  border-top: 5px solid #6ebe29;
+  min-height: 300px;
+  background: transparent;
+}
+
+.information .table {
+  margin-top: 30px;
+}
+
+.information-panel {
+  height: 170px;
+}
+
+.information-panel-heading {
+  height: 50px;
+  text-align: center;
+  background: #6ebe29;
+  padding: 1px;
+  color: white;
+}
+
+.information-panel-heading h3 {
+  font-size: 16px;
+  color: white !important;
+} 
+
+.information-panel-body {
+  height: 120px;
+  text-align: center;
+  background: #6ebe29;
+  background: rgba(119, 195, 41, 0.6);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.information-panel-body p {
+  font-size: 16px;
+}
+
+.information-panel-body-large {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dvd-banner {
+  margin-top: 30px;
+  background: gray;
+  padding: 20px;
+  color: white;
+}
+
+.dvd-banner-large {
+  font-size: 24px;
+}
+
+.ranking {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-top: 5px solid #6ebe29;
+  min-height: 300px;
+  background: rgb(239, 242, 245);
+  text-align: center;
+}
+
+.ranking h3 {
+  text-align: left;
+}
+
+.ranking-body {
+  margin-top: 50px;
+}
+
+.ranking-body button {
+  margin-top: 10px;
+  border-radius: 0px;
+}
+
+.card-details {
+  margin-top: 20px;
+  height: 30px;
+  color: white;
+  font-size: 11px;
+  width: 100%;
+}
+
+.card-grade {
+  background: rgb(73, 180, 238);
+  padding: 7px 21px;
+}
+
+.card-course {
+  background: rgb(41, 109, 215);
+  padding: 7px 21px;
+}
+
+.card-image {
+  height: 100px;
+  background: gray;
+  width: 100%;
+}
+
+.card-description {
+  margin-top: 10px;
+  text-align: left;
+}
