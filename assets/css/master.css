@@ -1,9 +1,11 @@
 /* general */
 
 #top {
-  background: url(../images/student_image_white.jpg); 
+  background: url(../images/students_2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 h3 {
@@ -12,6 +14,12 @@ h3 {
 
 .contents-panel h3 {
   margin-left: 20px;
+}
+
+.photo_box {
+  width: 200px;
+  float: right;
+  margin: 0 0 10px 30px;
 }
 
 .sub-title {
@@ -31,6 +39,14 @@ h3 {
   text-align:center;
   background: #cccccc;
   margin: 0 auto;
+}
+
+td .label-tag {
+  display: inline-block;
+}
+
+a.label-tag {
+  text-decoration: none !important;
 }
 
 .label-tag {
@@ -78,6 +94,10 @@ figcaption {
 .table tr td a {
   color: #333;
   text-decoration: underline;
+}
+
+.table th {
+  white-space: nowrap;
 }
 
 .td_midasi {
@@ -133,6 +153,24 @@ figcaption {
   margin-bottom: 30px;
 }
 
+.sidebar-ranking-nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-ranking-nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.sidebar-ranking-nav li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  background: #f7f7f7;
+  border: 1px solid #eeeeee;
+}
+
 .sidebar-nav-heading {
   background: rgb(109, 189, 41);
   font-weight: 600;
@@ -181,6 +219,14 @@ figcaption {
   color: #6ebe29;
 }
 
+.sidebar-rankings {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  background: #f7f7f7;
+  border: 1px solid #eeeeee;
+}
+
 .sidebar-rankings li:before {
   content: "";
 }
@@ -208,6 +254,10 @@ figcaption {
 
 .post-content img {
   margin: 30px 0px;
+}
+
+.post-content .col-sm-6 img {
+  margin-top: 0px;
 }
 
 .post-content-heading {
@@ -382,6 +432,13 @@ figcaption {
   background-color: #fff;
 }
 
+.sidebar-nav-items .btn-download {
+  clear: both;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .seminar-list {
   list-style-type: none;
   padding-left: 0px;
@@ -408,6 +465,9 @@ figcaption {
 
 .leaflet-box img {
   border: 1px solid #eee;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .leaflet-box p {
@@ -416,6 +476,58 @@ figcaption {
 
 .leaflet-box figcaption {
   margin-bottom: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 0px;
+}
+
+.title_h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted gray;
+}
+
+.center img {
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+}
+
+.package-box {
+  height: 160px;
+  background: #f7f7f7;
+}
+
+.package-box p {
+  padding: 10px 20px;
+}
+
+.package-box h3 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #6ebe29;
+  font-size: 16px;
+}
+
+.package-box .btn {
+  bottom: 0px;
+  right: 15px;
+  position: absolute;
+}
+
+.package-number {
+  background: #f7f7f7;
+  border-radius: 50%;
+  color: #333;
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.float_right {
+  float: right; 
+  margin-top: 0px !important;
 }
 
 

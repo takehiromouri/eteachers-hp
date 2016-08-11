@@ -1,7 +1,8 @@
 #top-copy {
-  margin-top: 200px;
-  color: white;
-  text-shadow: 2px 2px 15px #555555;
+  margin-top: 100px;
+  color: #f9f9f9;
+  text-shadow: 3px 1px 25px #010101;
+  margin-bottom: 300px;
 }
 
 #top-copy h1 {
@@ -10,11 +11,10 @@
 
 #top-copy p {
   font-weight: 600;
-  color: #fff;
 }
 
 #top-main {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .information {
